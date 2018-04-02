@@ -1,0 +1,199 @@
+body{
+    background-color: #f5f5f5;
+    margin: 0;
+}
+.head{
+	
+    background-color: #303030;
+    padding: 15px;
+}
+.logo{
+	font-family: Oleo Script;
+    font-size: 25pt;
+    font-weight: 400;
+    margin-top: -5px;
+    text-decoration: none;
+    color: white;
+}
+.logo span{
+	font-size: 40pt;
+}
+.logo:hover,.logo:visited {
+	color: white;
+}
+.menu{
+    width: 55%;
+    font-family: Raleway;
+    font-size: 8pt;
+}
+.menu ul li {
+	padding: 0px 7px 0px 10px;
+}
+.menu ul li a{
+	color: #cccccc;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+/*1st block - Download*/
+.download{
+    position: relative;
+    text-align: center;
+    padding: 0px; 
+    overflow: hidden;
+}
+.img-down{
+    padding: 0px;
+}
+.dow-text{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-family: Raleway;
+    color: white;
+    width: 54%;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 0em;
+}
+.dow-text h1{
+    font-size: 35pt;
+    text-align: left;
+}
+.about-us{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Raleway;
+    text-align: -webkit-center;
+    text-align: -mozilla-center;
+}
+.about-us h2{
+    font-weight: 600;
+    font-size: 20pt;
+    color: #867870;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.about-us p{
+    padding-top: 25px;
+    width: 30%;
+    text-align: center;
+}
+.intarpas{
+    background-color: #867870;
+    width: 56px;
+    height: 4px;
+}
+.main{
+    padding: 0px;
+    height: 0%;
+}
+.img-container {
+    width: 50%;
+    height: 400px;
+    background: url(http://abcdeff.byethost32.com/site/images/office.png) no-repeat center center / cover;
+    background-position-y: 0px;
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 25% 100%);
+}
+.best-text h2{
+    width: 15%;
+    font-size: 13pt;
+    font-family: Raleway;
+    margin-left: 7em;
+    margin-top: 5em;
+}
+.best-text p{
+    width: 35%;
+    font-size: 9pt;
+    font-family: Raleway;
+    margin-left: 10em;
+    margin-top: 0em;
+}
+.best-btn {
+    height: 35px;
+    width: 125px;
+    border: 1px solid black;
+    font-size: 8pt;
+    background-color: transparent;
+    margin-left: 11em;
+    margin-top: 2em;
+}
+.footer1{
+    background-color: #222222;
+    padding: 15px;
+}
+.footer-row{
+        margin: 0 auto;
+    width: 75%;
+    padding-top: 30px;
+}
+.logo-foot{
+    font-family: Oleo Script;
+    font-size: 25pt;
+    font-weight: 400;
+    margin-top: -5px;
+    text-decoration: none;
+    color: white;
+}
+.logo-foot span{
+    font-size: 40pt;
+}
+.mairala p{
+    color: #686868;
+    font-family: Raleway;
+    font-size: 8pt;
+}
+.logo-foot:hover,.logo:visited {
+    color: white;
+}
+.recent-post{
+    color: #686868;
+    font-family: Raleway;  
+}
+.recent-post h3{
+    color: #c2c2c2;
+    font-size: 10pt;
+}
+.date{
+    color: #4d4848;
+    font-size: 6pt;
+}
+.post{
+    font-size: 9pt;  
+    color: #c2c2c2;   
+}
+hr {
+    border-top: 1px solid #3d3d3d;
+}
+.footer2{
+    background-color: #1c1c1c;
+    padding: 5px;
+    text-align: center;
+    font-family: Raleway; 
+}
+.footer2 h3{
+    font-size: 8pt;
+}
+@media screen and (max-width: 690px) {
+.img-container {
+    height: 550px;
+}
+.best-text h2 {
+    width: 20%;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+.best-text p {
+    width: 35%;
+    margin-left: 4em;
+    margin-top: 0em;
+}
+.best-btn {
+    margin-left: 5em;
+    margin-top: 0em;
+}
+}
